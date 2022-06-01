@@ -1,0 +1,22 @@
+uuid: d98ced51-0524-4999-9828-06f5adfdee51
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rain_admin
+_core:
+  default_config_hash: 4DGDd6BTSQwPstWKoz3oHOhg1EHhu_F31pY21XLTA00
+id: rain_admin_primary_local_tasks
+theme: rain_admin
+region: header
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
