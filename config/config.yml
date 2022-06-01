@@ -1,0 +1,27 @@
+# This configuration file only contains variables for usage with DDEV-local.
+
+vagrant_hostname: https://scbd.ddev.site
+
+drupal_composer_install_dir: "/var/www/html"
+drupal_db_user: db
+drupal_db_password: db
+drupal_db_name: db
+drupal_db_host: db
+drupal_mysql_user: db
+drupal_mysql_password: db
+drupal_site_name: "Drupal"
+drupal_install_profile: scbd
+drupal_account_name: admin
+drupal_account_pass: admin
+
+command:
+  site:
+    options:
+      env: true
+      multisite: false
+      settings_file: settings.local.php
+
+project_repo: git@github.com:Matt-Hood/scbd.git
+release_repo: ssh://codeserver.dev.cb28ecd6-a25d-4224-ae9a-d25f1b8d9f15@codeserver.dev.cb28ecd6-a25d-4224-ae9a-d25f1b8d9f15.drush.in:2222/~/repository.git
+release_drupal_root: web
+deploy_host: Pantheon

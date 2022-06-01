@@ -1,0 +1,10 @@
+uuid: c1d0f5c9-0b40-4338-ab5c-da87feb32a37
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.token
+label: Token
+targetEntityType: node
+cache: true
