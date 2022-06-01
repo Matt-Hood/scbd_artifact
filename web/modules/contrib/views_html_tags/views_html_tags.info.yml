@@ -1,0 +1,13 @@
+name: 'Views HTML Tags'
+type: module
+description: 'Manage the HTML tags in style settings section of views field configuration.'
+package: Views
+core_version_requirement: ^8.9 || ^9
+configure: views_html_tags.settings
+dependencies:
+  - drupal:views
+
+# Information added by Drupal.org packaging script on 2022-03-24
+version: '2.0.1'
+project: 'views_html_tags'
+datestamp: 1648126903
